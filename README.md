@@ -4,18 +4,35 @@ game folder for versions 1.0 or Steam, many fixes and quality of life improvemen
 as dynamic lighting thanks to [gtaRenderHook](https://github.com/petrgeorgievsky/gtaRenderHook).
 
 ## Installation
-***I recommend using a clean install of GTA SA*** to use this pack, however it should be possible 
-to install it to already modded games, but some problems might come up; **Not tested for the**
-**Rockstar Games Launcher version**.
+***I recommend using a clean install of GTA SA*** to use this pack, however it should be 
+possible to install it to already modded games, but some problems might come up.
 
-1. Download the release file.
-2. Make a backup of your Grand Theft Auto San Andreas folder (*recommended*).
-3. Unzip it to the game folder.
-4. Launch `gta-sa.exe` or your preferred launcher.
+0. Make a backup of your Grand Theft Auto San Andreas folder (*recommended*).
+### If you have no mods installed at all
+1. [Downgrade](https://gtaforums.com/topic/927016-san-andreas-downgrader/) your game to 1.0 
+version if needed (Steam, Rockstar Games Launcher) and remeber to rename the generated 
+`gta_sa.exe` as `gta-sa.exe` replacing the original one.
+2. Install Silent's ASI Loader or Ultimate ASI Loader [**Needed for Rockstar Launcher**] 
+(***all mods are linked below***).
+3. Unpack the Mod Loader into the root folder (where `gta-sa.exe` is located).
+### General fixes (no dx11 shaders)
+4. Dowload the mods you want from the list and drop them into their corresponding modloader 
+folder, ***look for special cases with the symbol*** \*
+  - SkyUI needs GInput to be installed
+  - CLEO must be installed in the root folder
+  - RenderHook must be installed in the root folder
+  - ReShade has to be installed following their installer
+5. After installing all the mods you want, dowload the [latest release](https://github.com/RezmiCR/SA-RezPack/releases) 
+of my presets, and drop the folder content into your game folder, just check for the mods you 
+care about inside of the `modloader/` folder.
 
-## Mods included
+## Mods
+### ASI loader
+- I used [Silent’s ASI Loader](https://cookieplmonster.github.io/mods/gta-sa/) but consider using 
+[Ultimate ASI Loader](https://github.com/ThirteenAG/Ultimate-ASI-Loader/releases) instead
+### Mod Loader
 - [Mod Loader](https://www.gtagarage.com/mods/show.php?id=25377)
-- [Silent’s ASI Loader](https://cookieplmonster.github.io/mods/gta-sa/)
+### Most of the mods
 - [GInput](https://cookieplmonster.github.io/mods/gta-sa/)
 - [SilentPatch](https://cookieplmonster.github.io/mods/gta-sa/)
 - [HD radar map](https://www.gtainside.com/en/sanandreas/mods/84409-san-andreas-hd-radar-map/)
@@ -24,9 +41,9 @@ to install it to already modded games, but some problems might come up; **Not te
 - [MixSets](https://www.mixmods.com.br/2019/08/mod-mixsets.html)
 - [Open limit adjuster](https://gtaforums.com/topic/736512-open-limit-adjuster/)
 - [SA mobile to PC](https://gtaforums.com/topic/661961-sa-mobile-to-pc-research-project/)
-- [CLEO library](http://cleo.li/)
+- [CLEO library*](http://cleo.li/)
 - [Cutscene characters for gameplay](https://www.mixmods.com.br/2020/05/sa-cutscene-characters-for-gameplay.html)
-- [SkyUI](https://www.mixmods.com.br/2017/11/SkyUI.html)
+- [SkyUI*](https://www.mixmods.com.br/2017/11/SkyUI.html)
 - [Ragdoll physics](https://www.mixmods.com.br/2017/03/mod-ragdoll-bullet-physics-fisica-realista.html)
 - [HD intro movies](https://www.gtainside.com/en/sanandreas/mods/170782-hd-intro-movies-young-maylay-rap/)
 - [HD fonts](https://www.gtagarage.com/mods/show.php?id=20217)
@@ -39,16 +56,20 @@ to install it to already modded games, but some problems might come up; **Not te
 - [HD CJ textures](https://www.mixmods.com.br/2021/06/cj-upscale-hd-v2-0-textura-hd-para-o-player/)
 - [HD vegetation](https://www.gtagarage.com/mods/show.php?id=14994)
 - [HD loading screens](https://www.gtainside.com/en/sanandreas/mods/170824-hd-loadscreens-menu-cursor/)
+### Visual enhancements
+- [RenderHook*](https://discord.com/channels/379697980053127168/429321578153639937/662367691864277016) 
+to acces this you might need to join their [Discord server](https://discord.gg/rsZEUNW)
+- [ReShade*](https://reshade.me/)
 
-## Mods I'd like to add in the future
-In case someone would like to help me add more, **and test it before submitting merges**
+## Mods I'd like to test for compatibility in the future
+In case someone would like to help me add more, **and test it before submitting merge requests**
 - [HD weapons](https://gtaforums.com/topic/933587-improved-default-armoury-reflections-positions-model-and-texture-improvements/)
 - [Map texture fixes](https://www.mixmods.com.br/2015/05/map-textures-fix-correcao-das-texturas.html)
 https://www.mixmods.com.br/2015/03/nodep-desativar-dep.html
 - First person camera
 
 ## Why a github repo?
-Well, I would like to make this a smart installed, but that's for the future and just for 
+Well, I'd like to make this a smart installer, but that's for the future and just for 
 learning purposes.
 
 *Also the formatting would be prettier this way.*
