@@ -1,0 +1,24 @@
+<AmbientOcclusion Intesity="1" SampleCount="8" EnableAO="true" Radius="0.5" Curve="1.5" Scale="0.75"/>
+
+<CloudRendering CloudsRenderingScale="1" CloudSpeed="1" EnableCloudRendering="false" SunRaymarchingSteps="16" CloudStartHeight="400" CloudEndHeight="490" CloudsRaymarchingSteps="2"/>
+
+<WaterSettings EnableWater="true"/>
+
+<Deferred BlurShadows="true" SSRMaxIterations="4" UsePCSS="false" SSRScale="1" UseDitheringForAlphaObjects="false" SampleCubemap="true" SampleShadows="true" UseSSR="false" SSRStep="10" MaxShadowBlur="0.44999999" MinShadowBlur="0.30000001" CubemapSize="128" ShadowsBlurKernelSize="1"/>
+
+<Tonemap LumWhiteNight="0.405" EnableTonemap="true" UseGTAColorCorrection="true" LumWhiteDay="2.0699999" MiddleGrayDay="0.34" MiddleGrayNight="0.11499999"/>
+
+<Debug Windowed="false" DebugMessaging="false" UseDefaultAdapter="true" ShowPreformanceCounters="false" DebugLevel="0"/>
+
+<ShaderSettings UsePBR="true"/>
+
+<Shadows CullPerCascade="true" Enable="true" MaxSectorsAroundPlayer="1" ScanShadowsBehindPlayer="true" LodShadowsMinDistance="700" MaxDrawDistance="900" Size="3000" ShadowCascadeCount="4">
+    <Cascade ID="1" BiasCoefficients="8.9000001e-05"/>
+    <Cascade ID="2" StartDistanceMultiplier="0.035" BiasCoefficients="0.00022999999"/>
+    <Cascade ID="3" StartDistanceMultiplier="0.1" BiasCoefficients="0.00059000001"/>
+    <Cascade ID="4" StartDistanceMultiplier="0.30000001" BiasCoefficients="0.00019000001"/>
+</Shadows>
+
+<TAA EnableTAA="false" MotionBlurFallback="false" FrameCount="6" MBMinPixelDistance="3" MBEdgeScale="0.94999999" SubPixelScale="0.69999999" SubPixelCount="8" MBMaxSpeed="32" MBCenterScale="0.0049999999"/>
+
+<VolumetricLighting EnableVolumetricLighting="false" RaymarchingDistance="83" SunlightBlendOffset="-0.29000002" SunlightIntensity="0.16800001" VolumetricRenderingScale="0.25" SunlightRaymarchingSteps="32"/>

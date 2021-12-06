@@ -1,0 +1,19 @@
+﻿# binary stuff
+*.asi
+*.dll
+*.exe
+*.cs
+*.txd
+*.dff
+*.dat
+*.txt
+*.TXD
+*.DFF
+# modloader base stuff
+modloader/.data/
+modloader/.profiles/
+# junk stuff
+*.log
+# release stuff
+*.zip
+
